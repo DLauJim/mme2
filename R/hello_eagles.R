@@ -21,12 +21,13 @@ hello_eagles <- function(eagles, daytime = "auto"){
       daytime <- "afternoon"
     } else if(time_hour >= 22 & time_hour < 24) {
       daytime <- "evening"}
-    } else if(daytime == "morning"){
+    } 
+  if(daytime == "morning"){
     greeting <- "goog morning, "
     } else if(daytime == "evening"){
     greeting <- "Good evening, "
     } else greeting <- "Hello, "
   
-    cat(paste0(greeting ,paste0(eagles, collapse = ","), "!"))
+    cat(paste0(greeting, paste0(eagles, collapse = ","), "!"))
 }
 
