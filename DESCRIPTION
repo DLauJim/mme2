@@ -1,0 +1,16 @@
+Package: mme2
+Title: How does this works
+Version: 0.0.1
+Authors@R: 
+    person(given = "Diana",
+           family = "Jimenez-Rodriguez",
+           role = c("aut", "cre"),
+           email = "laurajimenez317@gmail.com"
+           )
+Description: What the package does (one paragraph).
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.0.0
+Imports: 
+  lubridate
